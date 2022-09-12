@@ -18,7 +18,7 @@ yarn add strapi-provider-upload-sftp-v2
   "providerOptions": {
     "host": "<host>",
     "port": "<port>",
-    "user": "<sftp-username>",
+    "username": "<sftp-username>",
     "password": "<password>",
     "basePath": "<base-path>",
     "baseUrl": "<base-url>"
