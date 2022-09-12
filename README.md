@@ -10,11 +10,11 @@ yarn add strapi-provider-upload-sftp-v2
 
 ## Config
 
-`./extensions/upload/config/settings.json`
+`./config/plugins.js`
 
 ```json
 {
-  "provider": "sftp",
+  "provider": "sftp-upload-provider",
   "providerOptions": {
     "host": "<host>",
     "port": "<port>",
@@ -41,6 +41,8 @@ File URL: http://example.com/image.jpg
 
 ## Base PATH
 `Base PATH` is used to define where, inside FTP, files should be saved.
+
+Obs: the value should include a / at the end
 
 ## Duplicate names
 When uploading a file, this provider will check if there is already a file with the same name on the server. If the file name already exists it will append a counter to the file name that will be incremented until the name is available.
