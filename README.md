@@ -14,7 +14,7 @@ yarn add strapi-provider-upload-sftp-v2
 
 ```json
 {
-  "provider": "sftp-upload-provider",
+  "provider": "strapi-provider-upload-sftp-v2",
   "providerOptions": {
     "host": "<host>",
     "port": "<port>",
