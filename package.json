@@ -25,19 +25,23 @@
     "email": "info@finnoconsult.at",
     "url": "https://finnoconsult.at"
   },
-  "contributors": [{
-    "name": "Márk Pap",
-    "email": "mark.pap@finnoconsult.at",
-    "url": "https://github.com/Sqveeze"
-  }, {
-    "name": "Péter Horváth",
-    "email": "peter.horvath@finnoconsult.at",
-    "url": "https://github.com/pitiboy"
-  }, {
-    "name": "Levente Máthé",
-    "email": "levente.mathe@finnoconsult.at",
-    "url": "https://github.com/leventemathefc"
-  }],
+  "contributors": [
+    {
+      "name": "Márk Pap",
+      "email": "mark.pap@finnoconsult.at",
+      "url": "https://github.com/Sqveeze"
+    },
+    {
+      "name": "Péter Horváth",
+      "email": "peter.horvath@finnoconsult.at",
+      "url": "https://github.com/pitiboy"
+    },
+    {
+      "name": "Levente Máthé",
+      "email": "levente.mathe@finnoconsult.at",
+      "url": "https://github.com/leventemathefc"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/finnoconsult/strapi-provider-upload-sftp/issues"
   },
@@ -54,7 +58,7 @@
     "jest": "^25.4.0"
   },
   "dependencies": {
-    "ssh2-sftp-client": "^2.5.0"
+    "ssh2-sftp-client": "9.1.0"
   },
   "scripts": {
     "test": "jest --detectOpenHandles --forceExit --setupFiles dotenv/config",
